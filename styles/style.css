@@ -1,0 +1,196 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+}
+
+/* HEADER STYLE */
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 95px;
+}
+.menu-bar {
+  font-size: 25px;
+  padding-left: 16px;
+  display: none;
+}
+
+.menu-items {
+  width: 463px;
+}
+
+.menu-full-list {
+  /* display: grid;
+    grid-template-columns: repeat(6,1fr); */
+
+  /* grid-column-gap: 20px; */
+
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  gap: 34px;
+}
+.menu-list,
+.menu-list-show {
+  list-style: none;
+}
+
+.menu-list a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+
+  color: #3a3a3a;
+}
+
+/* menu end */
+
+/* menu container start */
+.menu-container {
+  display: flex;
+  margin-top: 145px;
+  justify-content: space-around;
+}
+
+.menu-content {
+  width: 582px;
+  height: 270px;
+  margin-top: 74px;
+}
+.menu-container h1 {
+  font-size: 52px;
+  width: 100%;
+}
+.menu-container p {
+  width: 505px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.btn {
+  width: 196px;
+  height: 44px;
+  background: #e02c6d;
+  border-radius: 41px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  border: none;
+  margin-top: 20px;
+}
+
+.menu-image {
+  width: 440px;
+  height: 414px;
+}
+.menu-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 1110px;
+  margin: 100px auto;
+  gap: 60px;
+}
+
+.menu-icon ul {
+  list-style: none;
+}
+/* 
+main start */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 329px);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.card-info {
+  background: #f7f2f2;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  height: 476px;
+  display: grid;
+  justify-content: center;
+}
+
+.card-des h3 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+}
+.card-des h5 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.card-des p {
+  width: 196px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #787885;
+}
+
+/* join now section */
+.join-now {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.join-now-img img {
+  width: 404px;
+  height: 270px;
+}
+.join-now-info {
+  width: 610px;
+  height: 224px;
+  margin-top: 25px;
+}
+.join-now-info p {
+  width: 501px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  color: #6c6c6c;
+}
+
+/* footer */
+.footer-container {
+  width: 1440px;
+  height: 239px;
+  background: #0a0826;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.footer-items {
+  color: #fff;
+}
+
+.footer-icon {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 32px);
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.para-s {
+  margin-left: 70px;
+}
